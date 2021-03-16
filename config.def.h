@@ -119,7 +119,7 @@ static const char *colorname[] = {
 	"#649de9",
 	"#9567af",
 	"#a042cd",
-	"#3e2148", // -- dark purple // 9ecbd2
+	"#3e2148", // -- dark purple // 9ecbd2  // not dark anymore
 	"#623288", // 6e8e93 // 3d194c // 502765
 	"#875a66",
 	"#562f93",
@@ -127,7 +127,7 @@ static const char *colorname[] = {
 	"#649de9",
 	"#9567af",
 	"#a042cd",
-	"#3e2148", // 9ecbd2
+	"#8c4ad7", // 9ecbd2
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#bda3ed", /* 256 -> cursor */ // add8e6 // 5c4f73
