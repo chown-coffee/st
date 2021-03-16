@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "HackNerdFont:pixelsize=11:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "HackNerdFont:pixelsize=13:antialias=true:autohint=true";
+static char *font2[] = { "JoyPixels:pixelsize=13:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -120,7 +120,7 @@ static const char *colorname[] = {
 	"#9567af",
 	"#a042cd",
 	"#3e2148", // -- dark purple // 9ecbd2
-	"#502765", // 6e8e93 // 3d194c
+	"#623288", // 6e8e93 // 3d194c // 502765
 	"#875a66",
 	"#562f93",
 	"#274595",
