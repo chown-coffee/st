@@ -110,29 +110,30 @@ unsigned int tabspaces = 8;
 /* bg opacity */
 float alpha = 0.95, alphaUnfocused = 0.7;
 
-/* Terminal colors (16 first used in escape sequence) */
+/* Terminal colors (16 first used in escape sequence) */ //
 static const char *colorname[] = {
 	"#08050b", /* hard contrast: #1d2021 / soft contrast: #32302f */
 	"#875a66",
 	"#562f93",
 	"#274595",
-	"#649de9",
+	"#757dff",
 	"#9567af",
-	"#a042cd",
+	"#ac5dfd",
 	"#3e2148", // -- dark purple // 9ecbd2  // not dark anymore
 	"#623288", // 6e8e93 // 3d194c // 502765
 	"#875a66",
 	"#562f93",
 	"#274595",
-	"#649de9",
+	"#757dff",
 	"#9567af",
-	"#a042cd",
+	"#ac5dfd",
 	"#8c4ad7", // 9ecbd2
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#bda3ed", /* 256 -> cursor */ // add8e6 // 5c4f73
 	"#555555", /* 257 -> rev cursor*/
-	"#000000", /* 258 -> bg */
+	// "#000000", /* 258 -> bg */
+	"#0d0812", /* 258 -> bg */
 	"#9f78e1", /* 259 -> fg */
 };
 
